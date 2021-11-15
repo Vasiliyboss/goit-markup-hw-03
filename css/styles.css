@@ -25,19 +25,14 @@ ul {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+
 }
 .container {
   box-sizing: border-box;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 body {
@@ -52,6 +47,10 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ///////////////////////* header////////////////  */
 .header {
