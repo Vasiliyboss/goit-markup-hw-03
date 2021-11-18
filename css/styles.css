@@ -25,7 +25,6 @@ ul {
 img {
   display: block;
   max-width: 100%;
-
 }
 .container {
   box-sizing: border-box;
@@ -65,12 +64,12 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  }
+}
 .header-nav-list {
   display: flex;
 }
 .header-list {
-  margin: 0 auto;
+  margin-right: 5px;
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
@@ -181,7 +180,7 @@ body {
   width: 270px;
   margin-right: 30px;
 }
-.plan-item:nth-child(3n) {
+.plan-item:nth-child(4n) {
   margin-right: 0;
 }
 
@@ -210,12 +209,16 @@ body {
 .hobbi-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
 }
 .hobbi-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin: 15px;
+  margin-right: 30px;
 }
+.hobbi-item:last-child {
+  margin-right: 0;
+}
+/* flex-basis: calc(100% / 3 - 30px);
+    margin: 0; */
+
 /* ///////////////////////* team////////////////  */
 .team {
   background-color: var(--main-btn-color);
@@ -227,17 +230,19 @@ body {
   color: var(--second-title-color);
 
   margin-bottom: 50px;
-  padding-top: 94px;
   text-align: center;
 }
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.team-list {
-  flex-basis: calc(100% / 4 - 30px);
-  margin: 15px;
+.team-item {
+  margin-right: 30px;
+}
+.team-item:last-child {
+  margin-right: 0;
 }
 .team-second-title {
   font-weight: 500;
@@ -278,6 +283,8 @@ body {
 }
 .footer-list {
   display: block;
+}
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-add {
@@ -315,10 +322,10 @@ body {
 .port-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .port-btn .portfolio-item + .portfolio-item {
-margin-left: 8px;
-}
+  margin-left: 8px;
 }
 .portfolio-btn {
   display: inline-block;
@@ -340,9 +347,6 @@ margin-left: 8px;
 .portfolio-btn:focus {
   background-color: var(--third-title-color);
 }
-.portfolio-item {
-  margin-bottom: 50px;
-}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -351,7 +355,7 @@ margin-left: 8px;
   display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .port-item {
   border: 1px solid #eeeeee;
@@ -363,14 +367,14 @@ margin-left: 8px;
 .port-item:nth-child(3n) {
   margin-right: 0;
 }
-.port-item:nth-child(n+4) {
+.port-item:nth-child(n + 4) {
   margin-top: 30px;
 }
 .portfolio-title {
   margin: 0px 24px 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.2;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
@@ -380,4 +384,10 @@ margin-left: 8px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.port-text {
+  padding-top: 20px;
+}
+.port-link {
+  display: block;
 }
