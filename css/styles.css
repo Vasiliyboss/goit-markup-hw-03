@@ -328,7 +328,7 @@ body {
 .port-btn {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
 }
 .port-btn .portfolio-item + .portfolio-item {
   margin-left: 8px;
@@ -346,7 +346,6 @@ body {
   background-color: var(--main-btn-color);
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -380,7 +379,7 @@ body {
   margin-top: 30px;
 }
 .portfolio-title {
-  margin: 0px 24px 4px;
+  padding: 20px 24px 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -388,15 +387,15 @@ body {
   color: var(--second-title-color);
 }
 .portfolio-text {
-  margin: 0px 24px 20px;
+  padding: 0px 24px 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.port-text {
+/* .port-text {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
 }
 .port-link {
   display: block;
