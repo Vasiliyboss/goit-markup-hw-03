@@ -363,7 +363,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  /* margin-bottom: 20px; */
 }
 .port-item {
   border: 1px solid #eeeeee;
@@ -392,10 +391,6 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
-/* .port-text {
-  padding-top: 20px;
-  padding-bottom: 20px; */
 }
 .port-link {
   display: block;
